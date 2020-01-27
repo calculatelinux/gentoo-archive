@@ -1,0 +1,12 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-libs/libconfig dev-perl/Conf-Libconfig
+DESCRIPTION=Create C parsers for libconfig and command-line
+EAPI=7
+HOMEPAGE=https://github.com/yrutschle/conf2struct/
+LICENSE=BSD-2
+PROPERTIES=live
+RDEPEND=dev-libs/libconfig dev-perl/Conf-Libconfig
+SLOT=0
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	cabe101302b461f32ecbc3767dfb9e23	git-r3	809e27702c573cbba31c08ed00bbad33	multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=53008fc4556692b3df6c595baa4e5a5e

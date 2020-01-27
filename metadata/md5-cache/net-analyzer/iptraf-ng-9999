@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=>=sys-libs/ncurses-5.7-r7:0= virtual/os-headers !net-analyzer/iptraf
+DESCRIPTION=A console-based network monitoring utility
+EAPI=7
+HOMEPAGE=https://github.com/iptraf-ng/iptraf-ng
+IUSE=doc
+LICENSE=GPL-2 doc? ( FDL-1.1 )
+PROPERTIES=live
+RDEPEND=>=sys-libs/ncurses-5.7-r7:0=
+RESTRICT=test
+SLOT=0
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	cabe101302b461f32ecbc3767dfb9e23	git-r3	809e27702c573cbba31c08ed00bbad33	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=58f20932bd579f30c2d85a923364829e

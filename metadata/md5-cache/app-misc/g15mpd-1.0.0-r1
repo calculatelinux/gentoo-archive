@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DEPEND=>=app-misc/g15daemon-1.9 dev-libs/libg15 dev-libs/libg15render >=media-libs/libmpd-0.17 sys-libs/zlib x11-libs/libX11 x11-libs/libXtst x11-base/xorg-proto >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=MPD (music player daemon) plugin to G15daemon
+EAPI=5
+HOMEPAGE=https://sourceforge.net/projects/g15daemon/
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=>=app-misc/g15daemon-1.9 dev-libs/libg15 dev-libs/libg15render >=media-libs/libmpd-0.17 sys-libs/zlib x11-libs/libX11 x11-libs/libXtst
+SLOT=0
+SRC_URI=mirror://sourceforge/g15daemon/g15mpd-1.0.0.tar.bz2
+_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=651ada511d5429e522a273fc590c081a

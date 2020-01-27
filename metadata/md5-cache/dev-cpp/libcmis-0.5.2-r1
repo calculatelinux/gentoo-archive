@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig man? ( app-text/docbook2X dev-libs/libxslt ) test? ( dev-util/cppcheck dev-util/cppunit ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-libs/boost:= dev-libs/libxml2 net-misc/curl
+DESCRIPTION=C++ client library for the CMIS interface
+EAPI=7
+HOMEPAGE=https://github.com/tdf/libcmis
+IUSE=man static-libs test tools
+KEYWORDS=amd64 ~arm arm64 ~ppc64 x86 ~amd64-linux ~x86-linux
+LICENSE=|| ( GPL-2 LGPL-2 MPL-1.1 )
+RDEPEND=dev-libs/boost:= dev-libs/libxml2 net-misc/curl
+RESTRICT=test
+SLOT=0.5
+SRC_URI=https://github.com/tdf/libcmis/archive/v0.5.2.tar.gz -> libcmis-0.5.2.tar.gz
+_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	cabe101302b461f32ecbc3767dfb9e23	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=15bf6cbb0297e9ff43ba5aaf15c6af8e
